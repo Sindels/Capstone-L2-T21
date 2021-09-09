@@ -13,12 +13,12 @@ function SearchBar() {//created states for favouriteList, input, catagory and da
     e.preventDefault(); //Create a function to search for the information the user choosed 
     try{
       if(input === ''){
-        const response = await fetch(`http://localhost:8080/search/a/${catagory}`);
+        const response = await fetch(`/search/a/${catagory}`);
         const results = await response.json();// if the user only chose a catagory it will search for everything and give 25 results
         console.log(results)
         setData(results);
       }else {
-        const response = await fetch(`http://localhost:8080/search/${input}/${catagory}`);
+        const response = await fetch(`/search/${input}/${catagory}`);
         const results = await response.json();  
         console.log(results) //when the user gives a specified title and choose a catagory it will display 25 reults with the input of the user
         setData(results);
