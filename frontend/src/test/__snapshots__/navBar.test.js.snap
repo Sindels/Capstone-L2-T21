@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders correctly 1`] = `
+<header>
+  <div
+    className="navbar nav"
+    onKeyDown={[Function]}
+  >
+    <a
+      className="brand"
+      href="/"
+    >
+      <div>
+        <h2>
+           iTunes Search API
+        </h2>
+         
+      </div>
+    </a>
+  </div>
+</header>
+`;
