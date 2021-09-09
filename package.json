@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon Server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.17.1",
+    "helmet": "^4.6.0",
+    "isomorphic-fetch": "^3.0.0",
+    "react-test-renderer": "^17.0.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "nodemon": "2.0.7"
+  }
+}
